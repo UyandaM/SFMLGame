@@ -1,27 +1,16 @@
 #include <iostream>
-#include <SFML/Graphics.hpp>
+#include "gyruss.h"
 
 using namespace std;
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
 
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
+    int windowLength = 1920;
+    int windowBreadth = 1080;
+    gyruss game(windowLength,windowBreadth);
 
-        window.clear();
-        window.draw(shape);
-        window.display();
-    }
+    game.run();
 
     return 0;
 }
