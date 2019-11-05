@@ -14,6 +14,7 @@ gyruss::gyruss(int windowBreadth, int windowLength)
 
 void gyruss::run()
 {
+    /*
   sf::RenderWindow window(sf::VideoMode(this->windowBreadth , this->windowLength), "Gyrus");
   //sf::CircleShape shape(100.f);
   //shape.setFillColor(sf::Color::Green);
@@ -42,4 +43,5 @@ void gyruss::run()
       //window.draw(shape);
       //window.display();
   }
+  */
 }
