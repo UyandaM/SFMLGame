@@ -13,6 +13,7 @@ using std::make_shared;
 
 class entity
 {
+public:
     virtual float xposition() = 0;
     virtual float yposition() = 0;
     virtual float radius() = 0;
