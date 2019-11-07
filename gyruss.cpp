@@ -4,9 +4,9 @@ gyruss::gyruss(int windowBreadth, int windowLength)
 {
     this->windowLength = windowLength;
     this->windowBreadth = windowBreadth;
+    /*
     this->xOrigin = xOrigin;
     this->yOrigin = yOrigin;
-    /*
     this->xOrigin = (float)windowBreadth * 0.5;
     this->yOrigin = (float)windowLength * 0.3;
     */

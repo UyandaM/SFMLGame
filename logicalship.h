@@ -26,7 +26,14 @@ public:
     bool isAlive(); //checks is entity is alive, in this case, the entity is the ship
 
 private:
-    /* data */
+    int x_limit;
+    int y_limit;
+    float x_position;
+    float y_position;
+    float theta;
+    float radius;
+    float x_centre;
+    float y_centre;
 };
 
 

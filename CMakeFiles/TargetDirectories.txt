@@ -1,0 +1,3 @@
+/home/uyanda/Desktop/sfml/CMakeFiles/rebuild_cache.dir
+/home/uyanda/Desktop/sfml/CMakeFiles/runTests.dir
+/home/uyanda/Desktop/sfml/CMakeFiles/edit_cache.dir

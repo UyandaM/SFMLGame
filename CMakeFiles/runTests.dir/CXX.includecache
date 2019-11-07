@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/uyanda/Desktop/sfml/functions.cpp
+math.h
+-
+
+/home/uyanda/Desktop/sfml/test.cpp
+functions.cpp
+/home/uyanda/Desktop/sfml/functions.cpp
+gtest/gtest.h
+-
+
