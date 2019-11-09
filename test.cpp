@@ -1,11 +1,19 @@
-#include "functions.cpp"
 #include <gtest/gtest.h>
+#include <iostream>
+#include "logicalship.h"
+
+using namespace std;
+using std::unique_ptr;
+using std::make_unique;
+using std::shared_ptr;
+using std::make_shared;
 
 TEST(logicalship, Test1)
 {
-    EXPECT_EQ(1,1);
-    int a = atan(1)/45;
-    EXPECT_EQ(degreesToRadians(1),a);
+  int windowLength = 1920;
+  int windowBreadth = 1080;
+  auto ship = make_unique<logicalship>(windowBreadth,windowLength);
+
 }
 
 int main(int argc, char **argv) {

@@ -16,7 +16,6 @@ class entity
 public:
     virtual float xposition() = 0;
     virtual float yposition() = 0;
-    virtual float radius() = 0;
     virtual float angle() = 0;
 };
 
